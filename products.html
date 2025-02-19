@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page - ShopSmart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">ShopSmart</h1>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="cart.html" class="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="product-detail">
+    <div class="container">
+      <h2>Our Featured Products</h2>
+      <div class="product-detail-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 1">
+          <h3>Product 1</h3>
+          <p class="price">$49.99</p>
+          <p class="description">This product is amazing for everyday use. Durable and sleek, it's perfect for all occasions.</p>
+          <label for="quantity1">Quantity:</label>
+          <input type="number" id="quantity1" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(1)">Add to Cart</button>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 2">
+          <h3>Product 2</h3>
+          <p class="price">$79.99</p>
+          <p class="description">Experience quality with this top-of-the-line product. Built to last, it offers excellent value.</p>
+          <label for="quantity2">Quantity:</label>
+          <input type="number" id="quantity2" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(2)">Add to Cart</button>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 3">
+          <h3>Product 3</h3>
+          <p class="price">$29.99</p>
+          <p class="description">Perfect for casual use, this product brings comfort and style into one seamless package.</p>
+          <label for="quantity3">Quantity:</label>
+          <input type="number" id="quantity3" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(3)">Add to Cart</button>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 4">
+          <h3>Product 4</h3>
+          <p class="price">$19.99</p>
+          <p class="description">Affordable yet high quality, this product suits every need and lifestyle.</p>
+          <label for="quantity4">Quantity:</label>
+          <input type="number" id="quantity4" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(4)">Add to Cart</button>
+        </div>
+        <!-- Product 5 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 5">
+          <h3>Product 5</h3>
+          <p class="price">$59.99</p>
+          <p class="description">Sleek, modern, and reliable. This product is a must-have for anyone seeking quality.</p>
+          <label for="quantity5">Quantity:</label>
+          <input type="number" id="quantity5" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(5)">Add to Cart</button>
+        </div>
+        <!-- Product 6 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 6">
+          <h3>Product 6</h3>
+          <p class="price">$99.99</p>
+          <p class="description">Top-tier quality with superior design, perfect for those who value craftsmanship.</p>
+          <label for="quantity6">Quantity:</label>
+          <input type="number" id="quantity6" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(6)">Add to Cart</button>
+        </div>
+        <!-- Product 7 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 7">
+          <h3>Product 7</h3>
+          <p class="price">$24.99</p>
+          <p class="description">An everyday essential. Budget-friendly without compromising on style or quality.</p>
+          <label for="quantity7">Quantity:</label>
+          <input type="number" id="quantity7" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(7)">Add to Cart</button>
+        </div>
+        <!-- Product 8 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 8">
+          <h3>Product 8</h3>
+          <p class="price">$39.99</p>
+          <p class="description">A perfect balance of quality and affordability, suitable for all users.</p>
+          <label for="quantity8">Quantity:</label>
+          <input type="number" id="quantity8" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(8)">Add to Cart</button>
+        </div>
+        <!-- Product 9 -->
+        <div class="product-card">
+          <img src="https://via.placeholder.com/400" alt="Product 9">
+          <h3>Product 9</h3>
+          <p class="price">$89.99</p>
+          <p class="description">Premium product designed for the discerning buyer. A great value for high-end quality.</p>
+          <label for="quantity9">Quantity:</label>
+          <input type="number" id="quantity9" value="1" min="1" max="10">
+          <button class="btn" onclick="addToCart(9)">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 ShopSmart. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="cart.js"></script>
+</body>
+</html>
