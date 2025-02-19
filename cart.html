@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Cart - ShopSmart</title>
+  <title>Cart - ShopUsed</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <h1 class="logo">ShopSmart</h1>
+      <h1 class="logo">ShopUsed</h1>
       <nav class="nav">
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
@@ -25,25 +25,15 @@
   <section class="cart">
     <div class="container">
       <h2>Your Cart</h2>
-      <div id="cart-grid" class="cart-grid">
-        <div class="cart-items" id="cart-items">
-          <p>Your cart is empty.</p>
-        </div>
-        <div class="cart-summary">
-          <h3>Summary</h3>
-          <p><strong>Subtotal:</strong> $<span id="subtotal">0.00</span></p>
-          <p><strong>Shipping:</strong> Free</p>
-          <p><strong>Total:</strong> $<span id="total">0.00</span></p>
-          <button id="checkout-btn" class="btn checkout-btn" disabled>Checkout</button>
-          <button id="clear-cart-btn" class="btn clear-cart-btn" disabled>Clear Cart</button>
-        </div>
+      <div id="cart-container" class="cart-items">
+        <!-- Cart items will be dynamically rendered here -->
       </div>
     </div>
   </section>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 ShopSmart. All Rights Reserved.</p>
+      <p>&copy; 2025 ShopUsed. All Rights Reserved.</p>
     </div>
   </footer>
 
